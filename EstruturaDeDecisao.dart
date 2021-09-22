@@ -1,7 +1,7 @@
 main(List<String> args) {
-  //var isTrue = 1 > 0; //Variavel booleana
-  // Operadores: + soma, > maior, menor <, ==igualdade, != diferente, >= mior ou igual, <= menor ou iguel retorna valores boleanos
-  var isTrue = 1 == 0;
+  var num1 = 4;
+  var num2 = 4;
+  var isTrue = num1 >= num2;
 
   if (isTrue) {
     print("Isso é verdadeiro");
