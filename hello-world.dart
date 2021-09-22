@@ -5,6 +5,6 @@ main() {
 
   var numero = 3;
   numero = 3;
-
+  print(numero);
   print(hello);
 }

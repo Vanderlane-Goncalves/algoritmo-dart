@@ -1,3 +1,5 @@
+import 'dart:io';
+
 main(List<String> args) {
   // *ALGORITMO*
   // pergunta a idade da pessoa
@@ -6,8 +8,10 @@ main(List<String> args) {
   //se não for
   //  Ele não é maior de idade
 
-  var idade;
-  if (idade >= 18) {
+  var input = stdin.readLineSync(); // leia uma linha externa sincronamente
+  var idade = int.tryParse(input!);
+
+  if (idade! >= 18) {
     print("maior de idade");
   } else {
     print("menos de idade");

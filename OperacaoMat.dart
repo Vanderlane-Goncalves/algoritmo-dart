@@ -1,4 +1,3 @@
-import 'dart:ffi';
 
 main() {
   var num1 = 10;
